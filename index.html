@@ -209,38 +209,49 @@
       <section class="resume-section bg-white" id="info">
         <div class="resume-section-content">
           <h2 class="mb-5">作品概要</h2>
-          
-          <!-- <div class="subheading mb-3">アプリケーション名：「フクオタ」</div> -->
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1 jumbotron">
-              <div class="text-primary"><strong>ファッションコーディネート投稿サービス：</strong></div>
+          <div class="card mb-5">
+          <div class="card-body">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="flex-grow-1">
+                <h5 class="text-primary"><strong>ファッションコーディネート投稿サービス：</strong></h5>
                 <div class="mb-3"><h5>アプリケーション名:「フクオタ」</h5></div>
                 <p>好きなファッションコーディネートを投稿しよう。<br> 自分のファッションアイテムを投稿し合い、<br>また投稿アイテムを購入することができます。<br>「フクオタ」はファッション好きである開発者が、 自分の好きなものを通して他者と繋がれるサービスをと考え、開発したアプリケーションです。</p>
-                <div class="social-icons">
+                <div class="social-icons mb-3">
                   <a class="social-icon" href="https://github.com/YutaHoshino414/individual_work" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                   <a class="social-icon" href="https://serene-bayou-03832.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
-                </div>
+                </div>   
             </div>
             <div class="flex-shrink-0 w-50 ">
-              <!-- <img src="assets/img/fukuota.png" style="width:500px;"> -->
-              <iframe src="assets/卒業課題アプリケーション.pdf" width="100%" height="90%">a</iframe>
+              <iframe src="assets/卒業課題アプリケーション.pdf" width="100%" height="100%">a</iframe>
             </div>
+           </div>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-                <h3 class="mb-0">多階層カテゴリー機能</h3>
-                <div class="subheading mb-3">gem 'Ancestry'</div>
-                <p>gem の'Ancestry'を使用し、EC・ショッピングサイトなどによく見られる商品カテゴリーを設定しました。<br>投稿された商品にカテゴリを設けることで、訪問者が商品検索をしやすいサイト造りにしています。</p>
+        </div>
+          <div class="row mb-5">
+            <div class="col">
+                <h3 class="mb-0 border-bottom border-primary">ログイン機能</h3>
+                <div class="subheading mb-3">gem 'Devise'</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic tenetur, distinctio tempore expedita quidem ipsa quis quod asperiores eum repudiandae? Soluta enim quod ipsa provident quae placeat repellat quidem ipsam!</p>
             </div>
             <div class="flex-shrink-0"></div>
-         </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-                <h3 class="mb-0">決済機能</h3>
-                <div class="subheading mb-3">gem 'PAYJP'</div>
-                <p>決済機能として、PAYJPの決済サービスAPIを使用し、投稿された商品を購入出来る仕様にしました。<br>導入しているものは、PAYJPが提供している「checkout」機能の最もシンプルなものを実装しました。<br>Scriptタグ一行でかけてしまうものですが、見た目や使用状況に合わせ、カスタマイズしていきたいと考えています。<br></p>
+            <div class="col">
+              <h3 class="mb-0 border-bottom border-primary">決済機能</h3>
+              <div class="subheading mb-3">gem 'PayJP'</div>
+              <p>決済機能として、PAYJPの決済サービスAPIを使用し、投稿された商品を購入出来る仕様にしました。導入しているものは、PAYJPが提供している「checkout」機能の最もシンプルなものを実装しました。<br>Scriptタグ一行でかけてしまうものですが、見た目や使用状況に合わせ、カスタマイズしていきたいと考えています。<br></p>
+           </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+                <h3 class="mb-0 border-bottom border-primary">検索機能</h3>
+                <div class="subheading mb-3">gem 'Ransack'</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid voluptatum commodi eum, ratione excepturi illum alias omnis exercitationem hic placeat recusandae provident voluptatibus. Consequatur hic omnis ipsum delectus libero?<br></p>
             </div>
             <div class="flex-shrink-0"></div>
+            <div class="col">
+              <h3 class="mb-0 border-bottom border-primary">階層カテゴリー</h3>
+              <div class="subheading mb-3">gem 'Ancestry'</div>
+              <p>gem の'Ancestry'を使用し、EC・ショッピングサイトなどによく見られる商品カテゴリーを設定しました。<br>投稿された商品にカテゴリを設けることで、訪問者が商品検索をしやすいサイト造りにしています。</p>
+          </div>
          </div>
         </div>
         
@@ -355,15 +366,13 @@
             </ul><br>
             <div class="card shadow mb-4" >
               <div class="card-header py-3">
-                <p class="text-primary m-0">Git/Github Commits</p>
+                <h5 class="text-primary m-0">Git/Github Commits</h5>
               </div>
               <div class="card-body">
                   <a href="https://github.com/YutaHoshino414">
                     <img align="left" src="https://github-readme-stats.vercel.app/api?username=YutaHoshino414&count_private=true&show_icons=true&theme=slateorange" />
                   </a>
-                    <!-- <a href="https://github.com/YutaHoshino414"> -->
-                      <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YutaHoshino414&layout=compact&theme=graywhite" />
-                    <!-- </a> -->
+                    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YutaHoshino414&layout=compact&theme=graywhite" />
               </div>
             </div>
         </div>
@@ -376,7 +385,7 @@
               <h2 class="mb-5">Experience & <span class="text-secondary">Education</span></h2>
               <div class="row">
                 <div class="col">
-                  <div class="card shadow mb-4">
+                  <div class="card shadow mb-5">
                     <div class="card-header py-3">
                         <h6 class="m-0 font-weight-bold text-primary">職歴</h6>
                     </div>
@@ -458,9 +467,34 @@
                             <div class="mb-3">普通科</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Apl 2001 - Mar 2004</span></div>
-                    </div>
-                    </div>
+                      </div>
+                    </div> 
                   </div>
+                </div>
+              </div>
+              <div class="card mb-5 shadow">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary"> プログラミング歴</h6>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                    <div class="flex-grow-1">
+                        <h4 class="mb-0">DIVE INTO CODE</h4>
+                        <div class="mb-3">WEBエンジニアコース</div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Nov 2020 - Feb 2021</span></div>
+                  </div>
+                  <h5 class="m-0 font-weight-bold ">学習言語 & 技術・フレームワーク</h5>
+                <ul class="list-inline dev-icons ml-3">
+                  <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                  <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                  <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                  <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                  <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                  <li class="list-inline-item"><img src="assets/img/top-business-01.png" style="width:80px;"></li>
+                  <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+                  <li class="list-inline-item"><i class="fas fa-database"></i><small style="font-size:20px;">SQL</small></li> 
+                </ul>  
                 </div>
               </div>
           </div>
@@ -485,23 +519,6 @@
         <section class="resume-section" id="tests">
           <div class="resume-section-content">
               <h2 class="mb-5">Test Page(試用)</h2>
-              <div class="card mb-5">
-                <div class="card-header py-3">
-                  <h4 class="m-0 font-weight-bold ">学習言語 & 技術・フレームワーク</h4>
-                </div>
-                <div class="card-body">
-                <ul class="list-inline dev-icons ml-3">
-                  <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                  <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                  <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                  <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
-                  <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                  <li class="list-inline-item"><img src="assets/img/top-business-01.png" style="width:80px;"></li>
-                  <li class="list-inline-item"><i class="fab fa-aws"></i></li>
-                  <li class="list-inline-item"><i class="fas fa-database"></i><small style="font-size:20px;">SQL</small></li> 
-                </ul>  
-                </div>
-              </div>
           </div>
       </section>
       <hr class="m-0" />
