@@ -524,66 +524,6 @@
       <hr class="m-0" />
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-  <script>
-    var ctx = document.getElementById("myRaderChart");
-    var myRadarChart = new Chart(ctx, {
-        type: 'radar', 
-        data: { 
-            labels: ["HTML", "CSS", "Javascript", "Vue.js", "Bootstrap"],
-            datasets: [{
-                label: 'フロントエンド',
-                data: [80, 70, 30, 10, 60],
-                backgroundColor: 'RGBA(30, 144, 255, 0.2)',
-                borderColor: 'RGBA(30, 144, 255, 1)',
-                borderWidth: 1,
-                pointBackgroundColor: 'RGB(30, 144, 255)'
-            }]
-        },
-        options: {
-            
-            scale:{
-                ticks:{
-                    suggestedMin: 0,
-                    suggestedMax: 100,
-                    stepSize: 20,
-                    callback: function(value, index, values){
-                        return  value +  ''
-                    }
-                }
-            }
-        }
-    });
-    </script>
-    <script>
-      var cx = document.getElementById("myRaderChart2");
-      var myRadarChart2 = new Chart(cx, {
-          type: 'radar', 
-          data: { 
-              labels: ["Ruby", "Ruby on Rails", "DB", "AWS", "Git/Github", "Linux"],
-              datasets: [{
-                  label: 'サーバーサイド',
-                  data: [50, 60, 30, 30, 40, 20],
-                  backgroundColor: 'RGBA(255, 51, 51, 0.2)',
-                  borderColor: 'RGBA(255, 51, 51, 1)',
-                  borderWidth: 1,
-                  pointBackgroundColor: 'RGB(255, 51, 51)'
-              }]
-          },
-          options: {
-              
-              scale:{
-                  ticks:{
-                      suggestedMin: 0,
-                      suggestedMax: 100,
-                      stepSize: 20,
-                      callback: function(value, index, values){
-                          return  value +  ''
-                      }
-                  }
-              }
-          }
-      });
-      </script>
   <!-- Bootstrap core JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
