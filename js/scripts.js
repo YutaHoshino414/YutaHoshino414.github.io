@@ -45,7 +45,7 @@ var myRadarChart = new Chart(ctx, {
         labels: ["HTML", "CSS", "Javascript", "Vue.js", "Bootstrap"],
         datasets: [{
             label: 'フロントエンド',
-            data: [80, 70, 30, 10, 60],
+            data: [80, 60, 30, 10, 50],
             backgroundColor: 'RGBA(30, 144, 255, 0.2)',
             borderColor: 'RGBA(30, 144, 255, 1)',
             borderWidth: 1,
@@ -72,7 +72,7 @@ var cx = document.getElementById("myRaderChart2");
           data: { 
               labels: ["Ruby", "Ruby on Rails", "DB", "AWS", "Git/Github", "Linux"],
               datasets: [{
-                  label: 'サーバーサイド',
+                  label: 'サーバーサイド・インフラ',
                   data: [50, 60, 30, 30, 40, 20],
                   backgroundColor: 'RGBA(255, 51, 51, 0.2)',
                   borderColor: 'RGBA(255, 51, 51, 1)',
