@@ -10230,3 +10230,118 @@ section.resume-section .resume-section-content {
   font-size: 35px;
   color:#fff;
 }
+/* 
+#interests{
+  background-image: url("../assets/img/portfolio/artist.jpeg");
+  background-size:100%;
+} */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_loading20 {
+	 position: relative;
+	/* top: 50%;
+  left: 50%; */
+  bottom: -100px;
+  right: 280px;
+	width: 68px;
+	height: 50px;
+	/* -webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%); */
+}
+.cp_loading20:before,
+.cp_loading20:after,
+.cp_loading20 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 14px;
+	height: 60px;
+	content: '';
+	-webkit-animation: loading20 1.5s ease-in-out infinite;
+	        animation: loading20 1.5s ease-in-out infinite;
+	-webkit-transform-origin: 100% 100%;
+	        transform-origin: 100% 100%;
+}
+.cp_loading20:before {
+	background-color: #D81B60;
+}
+.cp_loading20:after {
+	left: 18px;
+	-webkit-animation-delay: -0.3s;
+	animation-delay: -0.3s;
+	background-color: #ff8e25;
+}
+.cp_loading20 span {
+	left: 36px;
+	-webkit-animation-delay: -0.6s;
+	animation-delay: -0.6s;
+	background-color: #faf604;
+}
+.cp_loading20 span:nth-child(2) {
+	left: 54px;
+	-webkit-animation-delay: -1.2s;
+	animation-delay: -1.2s;
+	background-color: #4ffb00;
+}
+.cp_loading20 span:nth-child(3) {
+	left: 72px;
+	-webkit-animation-delay: -0.3s;
+	animation-delay: -0.3s;
+	background-color: #00fbe6;
+}
+.cp_loading20 span:nth-child(4) {
+	left: 90px;
+	-webkit-animation-delay: -0.6s;
+	animation-delay: -0.6s;
+	background-color: #009ffb;
+}
+.cp_loading20 span:nth-child(5) {
+	left: 108px;
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+	background-color: #6d00fb;
+}
+.cp_loading20 span:nth-child(6) {
+	left: 126px;
+	-webkit-animation-delay: -1.3s;
+	animation-delay: -1.3s;
+	background-color: #ed65ffe5;
+}
+@-webkit-keyframes loading20 {
+	0% {
+		-webkit-transform: scaleY(0);
+		        transform: scaleY(0);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scaleY(1);
+		        transform: scaleY(1);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleY(0);
+		        transform: scaleY(0);
+		opacity: 0;
+	}
+}
+@keyframes loading20 {
+	0% {
+		-webkit-transform: scaleY(0);
+		        transform: scaleY(0);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scaleY(1);
+		        transform: scaleY(1);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleY(0);
+		        transform: scaleY(0);
+		opacity: 0;
+	}
+}
