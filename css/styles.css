@@ -10212,3 +10212,21 @@ section.resume-section .resume-section-content {
   }
 }
 
+.new_blog{
+  position: relative;
+  padding: 32px;
+  border-radius: 100%;
+  background-color:#000000;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  bottom: -200px;
+  right: 250px;
+  cursor: pointer;
+}
+
+.fa-compact-disc{
+  font-size: 35px;
+  color:#fff;
+}
