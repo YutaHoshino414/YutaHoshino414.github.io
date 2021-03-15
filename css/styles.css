@@ -10230,11 +10230,12 @@ section.resume-section .resume-section-content {
   font-size: 35px;
   color:#fff;
 }
-/* 
-#interests{
+
+/* #tests{
   background-image: url("../assets/img/portfolio/artist.jpeg");
   background-size:100%;
-} */
+  
+}  */
 
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
