@@ -3959,6 +3959,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-image: url("../assets/img/navbar.jpg");
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -10096,7 +10097,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  /* max-width: 75rem; */
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -10231,11 +10232,10 @@ section.resume-section .resume-section-content {
   color:#fff;
 }
 
-/* #tests{
-  background-image: url("../assets/img/portfolio/artist.jpeg");
-  background-size:100%;
-  
-}  */
+#tests{
+  background-image: url("../assets/img/portfolio/field_football_marking_green_2795_1920x1080.jpg");
+  background-size:100%; 
+}
 
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
