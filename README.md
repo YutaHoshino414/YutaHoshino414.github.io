@@ -1,5 +1,6 @@
 ## ポートフォリオ  
 
-<img width="1257" alt="スクリーンショット 2021-03-06 15 29 38" src="https://user-images.githubusercontent.com/72447845/110197777-333e2300-7e91-11eb-9452-7addff076870.png">
+<img width="763" alt="スクリーンショット 2021-03-19 15 29 40" src="https://user-images.githubusercontent.com/72447845/115963876-709f6280-a55c-11eb-83ea-afc44ce4e616.png">
+
 
 <a href="https://yutahoshino414.github.io/" target="_blank" rel="noopener noreferrer">https://yutahoshino414.github.io/</a>
